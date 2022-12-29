@@ -1,0 +1,363 @@
+{"intents": [ 
+
+    {"tag": "greeting", 
+
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"], 
+
+     "responses": ["Hello", "Hi", "Hi there"] 
+
+    }, 
+
+    {"tag": "goodbye", 
+
+     "patterns": ["Bye", "See you later", "Goodbye"], 
+
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"] 
+
+    }, 
+
+    {"tag": "thanks", 
+
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"], 
+
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"] 
+
+    }, 
+
+    {"tag": "about", 
+
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ], 
+
+     "responses": ["I.m Hungo, your bot assistant", "I'm Hungo, an Artificial Intelligent bot"] 
+
+    }, 
+
+    {"tag": "name", 
+
+    "patterns": ["what is your name", "what should I call you", "whats your name?"], 
+
+    "responses": ["You can call me Hungo.", "I'm Hungo !", "Just call me as Hungo"] 
+
+    }, 
+
+    {"tag": "help", 
+
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"], 
+
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"] 
+
+    }, 
+
+    {"tag": "createaccount", 
+
+    "patterns": ["I need to create a new account", "how to open a new account", "I want to create an account", "can you create an account for me", "how to open a new account"], 
+
+    "responses": ["You can just easily create a new account from our web site", "Just go to our web site and follow the guidelines to create a new account"] 
+
+    }, 
+
+    {"tag": "complaint", 
+
+    "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"], 
+
+    "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"] 
+
+    }, 
+
+    {"tag": "Japanese", 
+
+     "patterns": ["japanese food", "i want to eat japanese food", "any thing in japanese", "want to eat japanese food", "japan"], 
+
+     "responses": ["there are Shikanzen near Chaing Rak 1 that are famous in their sushi", "How about some sushi for appretizer? Shinkanzen would be your right choice.", "There is a famous Ramen shop nearby", "Salmon King is very famous in Thammasat", "How about some Ramen"] 
+
+    }, 
+
+    {"tag": "Ramen", 
+
+     "patterns": ["japanese noodles", "japanese soup", "soup", "noodle", "hot japan", "hot japanese", "hot japanese food", "hot japanese with noodles", "japanese food with noodles", "any thing with noodle", "ramen", "i want some ramen", "ramen in Thammasat"], 
+
+     "responses": ["there are famous ramen shop in Chaing Rak", "How about some Tonkatsu Ramen? It is very delicious in Shinya restaurant.", "There is a famous Ramen shop nearby", "There are new ramen shop name Sho Ramen at U-village, you should try it.", "How about ramen for this meal? I can recommend you some restaurant nearby.", "Which type of soup would you prefer?"] 
+
+    }, 
+
+    {"tag": "Sho Ramen", 
+
+     "patterns": ["real traditional ramen", "traditional", "traditional taste", "feel like japan", "old taste", "original taste", "feeling like Japan", "Shinjuku Thailand", "recommend ramen shop", "recommend ramen", "how about Sho Ramen" ], 
+
+     "responses": ["Sho Ramen is the best choice for you", "If you want the taste and feeling like Japan, Sho Ramen will be good choice for you.", "Sho Ramen is recommend for you, it located in U-village"] 
+
+    }, 
+
+    {"tag": "Shinya", 
+
+     "patterns": ["some new style ramen shop", "new style ramen", "cheap ramen", "good price", "fusion taste of japan", "ramen with air conditioner" ], 
+
+     "responses": ["Shinya would be good choice for you", "How about Shinya restaurant", "Shinya restaurant is recommend for you, it located under City park"] 
+
+    }, 
+
+    {"tag": "Sushi", 
+
+     "patterns": ["i want to eat sushi","sushi for this meal", "any sushi shop", "sushi shop nearby", "japanese rice", "tamako maki", "salmon with rice","seaweed japanese","japanese seaweed", "shoyu", "food with wasabi", "wasabi", "small portion japanese rice", "small portion", "small rice", "rice with vinegar"], 
+
+     "responses": ["sushi would be good choice for you", "How about Sushi, Shinkanzen is recommended for you", "Shinkanzen is recommend for you, it located under Inter Park", "There are omakase sushi near Banyan Tree."] 
+
+    }, 
+
+      {"tag": "Shinkanzen", 
+
+     "patterns": ["recommend Sushi in Thammasat","recommend sushi nearby", "famous sushi nearby", "sushi shop nearby", "recommend sushi"], 
+
+     "responses": ["Shinkanzen Sushi is recommend for you", "the sushi shop named Shinkanzen would be your right choice"] 
+
+    }, 
+
+    {"tag": "Salmon", 
+
+     "patterns": ["delicious salmon", "recommend salmon nearby", "recommend salmon sashimi", "recommend sashimi", "sashimi nearby", "delicious sashimi", "Japanese fish", "raw fish"], 
+
+     "responses": ["There are Salmon King that are famous in Sashimi", "If you want to eat Sashimi, Salmon King would be a good choice for you.", "Salmon Sashimi is recommended for you", "Sashimi is your good choice", "How about Sashimi?"] 
+
+    }, 
+
+    {"tag": "Salmon King", 
+
+     "patterns": ["delicious salmon restaurant", "recommend salmon restaurant nearby", "recommend salmon sashimi restaurant", "recommend sashimi restaurant", "sashimi restaurant nearby", "delicious sashimi restaurant", "Japanese fish restaurant", "raw fish restaurant"], 
+
+     "responses": ["There are Salmon King which are famous in Sashimi", "If you want to eat Sashimi, Salmon King would be a right choice for you.", "How about Salmon King, it located near Green Canteen"] 
+
+    }, 
+
+
+    {"tag": "American", 
+
+     "patterns": ["american food", "usa food", "america"], 
+
+     "responses": ["There are Burger Shop nearby", "How about some double cheese buger with fries", "the medium rare sirloin is good for you", "which type of food did you prefer?"] 
+
+    }, 
+
+    {"tag": "Hamburger", 
+
+     "patterns": ["hamburger", "burger", "american hamburger", "buns","hamburg","hamberger","cheese burger", "bread", "meat with buns"], 
+
+     "responses": ["hamburger is recommend for you", "how about hamburger", "hamburger is your best choice", "hamburger is a right choice for you"] 
+
+    }, 
+
+    { "tag": "Anwa Burger", 
+
+     "patterns": ["muslim burger","no pork", "no pork burger","pork", "islam burger"], 
+
+     "responses": ["There are Anwa Burger which are famous in  halal burger", "If you want to eat burger, Anwa would be a choice for you", "Anwa burger is your best choice", "If you don't want to eat pork,Anwa hamburger is a right choice for you"] 
+
+    }, 
+
+    {"tag": "Anwa Burger", 
+
+     "patterns": ["hamburger", "burger", "american hamburger", "buns","hamburg","hamberger","cheese burger", "bread", "meat with buns"], 
+
+     "responses": ["hamburger is recommend for you", "how about hamburger", "hamburger is your best choice", "hamburger is a right choice for you"] 
+
+    }, 
+
+    {"tag": "KIN Burger", 
+
+     "patterns": ["Big burger", "Big size burger","Large size burger", "Jumbo burger", "huge burger", "massive burger", "late time burger", "night time burger"], 
+
+     "responses": ["If you want a new experience, KIN Burger is your choice", "If you want to eat some gigantic size burger, KIN Burger is your choice", "KIN Burger is your choice, it located in U-village"] 
+
+    }, 
+
+    {"tag": "Steak", 
+
+     "patterns": ["want to eat Steak", "grilled american meat", "american grilled meat", "grilled american", "easy to eat american food"], 
+
+     "responses": ["steak is recommend for you", "steak is your right choice", "there are various of Steak house nearby"] 
+
+    }, 
+
+    {"tag": "Uncle Yig", 
+
+     "patterns": ["Large steak","Huge steak", "Big size steak", "cheap steak", "big steak"], 
+
+     "responses": ["If you want a large steak and cheap price, Uncle Yig is the right choice", "Uncle Yig is recommended for you"] 
+
+    }, 
+
+    {"tag": "Steak Holder", 
+
+     "patterns": ["famous steak nearby", "famous steak", "most well known steak", "yummy steak", "crowded steak"], 
+
+     "responses": ["the famous steak restaurant nearby is Steak Holder", "Steak Holder is the right choice for you"] 
+
+    }, 
+
+    {"tag": "Fast-Food", 
+
+     "patterns": ["fast food nearby", "easy food", "fries", "instant food", "quick food"], 
+
+     "responses": ["How about some fast food"] 
+
+    }, 
+
+    {"tag": "Green Canteen", 
+
+     "patterns": ["any fast food near building", "any fast food near dormitory?", "fast food near dormitory", "food near dormitory"], 
+
+     "responses": ["There are fast food in Green Canteen"] 
+
+    }, 
+
+    {"tag": "LC.4", 
+
+     "patterns": ["fast food near faculty of Science and Technology", "Science and Technology", "fast food that is cheap", "cheap fast food", "low price fast food"], 
+
+     "responses": ["There are fast food in LC.4"] 
+
+    }, 
+
+
+    {"tag": "Halal", 
+
+     "patterns": ["halal", "no pork", "islam", "islam food", "halal food"], 
+
+     "responses": ["How about chicken masala", "let's get biriyani with garlic chicken", "how about goat milk with yogurt", "there are some halal restuarant nearby"] 
+
+    }, 
+
+    {"tag": "Royal-Food court", 
+
+     "patterns": ["Halal food nearby", "delicious halal food", "cheap halal food", "recommended halal food", "virous type of food"], 
+
+     "responses": ["Royal-Food court is recommended for you", "Royal-Food court which located behind green canteen is recommended for you"] 
+
+    },
+
+    {"tag": "taste", 
+
+     "patterns": ["taste", "spicy", "salty", "sweet","sour"], 
+
+     "responses": ["the spicy that i recommend is tom yum kung", "fried chicken by fish sauce might me salty enough for you", 
+
+            "butter chicken might be sweet for you"] 
+
+    }, 
+
+    {"tag": "location", 
+
+    "patterns": ["restaurant nearby", "restaurant near me", "advice location"], 
+
+    "responses": ["there are green canteen nearby", "There Yang Noey at Chiang rak 2 gate", "Shinkanzen Omakase will be good for you"] 
+
+    }, 
+
+    {"tag": "ranking", 
+
+    "patterns": ["5 stars ranking", "the best", "best food", "the best food in town", "most rating restaurant"], 
+
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"] 
+
+    }, 
+
+    {"tag": "most_well_known", 
+
+    "patterns": ["famous nearby", "famous", "well known", "everyone like it", "know"], 
+
+    "responses": ["there are famous sushi shop nearby", "Sam steak is quite well known here for decades", "Ong-sa is famous due to the crowd of customer there"] 
+
+    }, 
+
+    {"tag": "food_nearby", 
+
+    "patterns": ["near", "anything nearby", "restaurant in this area", "close by", "close to", "nearly"], 
+
+    "responses": ["please locate your location"] 
+
+    }, 
+
+    {"tag": "famous_in_area", 
+
+    "patterns": ["famous food nearby", "recommend food in this area", "popular food here"], 
+
+    "responses": ["please locate your location", "please give us more intel about your area"] 
+
+    }, 
+
+    {"tag": "Thai", 
+
+     "patterns": ["Thai food", "about Thai food" , "i want to eat Thai food"], 
+
+     "responses": ["i recommend Padtai from Bangkok", "Thai food unique is the mix of spices, chili heat, herbs, sweetenings, seasonings, together with creamy", "I recommend papaya salad"] 
+
+    }, 
+
+    {"tag": "Chinese", 
+
+     "patterns": ["Chinese food", "Chinese", "Top 3 Chinese food"], 
+
+     "responses": ["There are China Town in Bangkok", "How about some Mala hotpot", "Peking Roasted Duck, Kung Pao Chicken, Hot Pot"] 
+
+    }, 
+
+    {"tag": "Vegan_food", 
+
+     "patterns": ["Vegan food", "no meat", "Plant base food"], 
+
+     "responses": ["I recommend Sugar Snap Pea and Carrot Soba Noodles and Amazing Vegan Mac and Cheese", "Peanut,vegetable ", "Almond Milk, soy milk"] 
+
+    }, 
+
+    {"tag": "Want_food", 
+
+     "patterns": ["food", "I want to eat some food","Hungry"], 
+
+     "responses": ["I recommend rice and noodles", "What type of food do you want to eat"] 
+
+    }, 
+
+    {"tag": "Top_Recommended_restaurants", 
+
+    "patterns": ["Top restaurant nearby", "Top 3 recommended restaurans in Bangkok"], 
+
+    "responses": ["There are Future park Rangsit nearby", "Krua Khun Ein, Pril-Yuak, Krua Apsorn"] 
+
+    }, 
+
+    {"tag": "recommended_dishes", 
+
+    "patterns": ["3 recommend dished"], 
+
+    "responses": ["Pad Thai, Tom Yum, Khao Soi"] 
+
+    }, 
+
+    {"tag": "Meal_of_day", 
+
+    "patterns": ["Breakfast", "luch", "dinner"], 
+
+    "responses": ["Omelette and rice, Dim sum", "Papaya Salad, noodles, Pad Tai, Fried rice", "Stuffed sweet potatoes, Thai curry and rice"] 
+
+    }, 
+
+    {"tag": "Food_matching", 
+
+    "patterns": ["I want to eat rice with ?", "matching food for me please"], 
+
+    "responses": ["I recommend Green curry and omelette", "Ramen and sushi"] 
+
+    }, 
+
+    {"tag": "Desserts", 
+
+    "patterns": ["famous desserts nearby", "popular Thai desserts"], 
+
+    "responses": ["please locate your location", "Custard-Filled Bread, Mango Sticky Rice"] 
+
+    } 
+
+] 
+
+}
+
+ 
